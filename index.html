@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy Aung</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LEGACY AUNG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiences">Experiences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center justify-content-center text-center bg-light" style="height: 100vh;">
+        <div class="hero-content">
+            <p>Hello, I'm Htut Oo Aung</p>
+            <p class="hero-description">I'm into <span id="dynamic-text"></span> </p>
+            <a href="#aboutme" class="btn btn-primary" onclick="scrollToSection('#aboutme')">About Me <i class="fa-solid fa-arrow-down"></i></a>
+            <div class="socials-hero">
+                <a href="https://www.linkedin.com/in/htut-oo-aung-5936b0223/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/LegacyAung" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://t.me/aunghoa" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://line.me/ti/p/yaEAFcPLXB" target="_blank"><i class="fa-brands fa-line"></i></a>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    <!-- About me Sections -->
+    <section id="aboutme" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-12"><i class="fa-solid fa-user"></i> About <span>Me</span></h2>
+            <div class="row-div d-flex justify-content-between">
+                
+                <div class="col-md-4 aboutme-image-div">
+                    <img src="assets\profile_pic.jpeg" alt="Profile Image" class="img-fluid">
+                </div>
+                
+                <div class="col-md-8 d-flex align-items-left flex-column aboutme-description-div">
+                    <h2>Full Stack developer</h2>
+                    <p>Hi, I am Aung. I am a full stack developer based in Bangkok, Thailand. I am a proactive worker with a passion for web developing, developing applications & stretching my knowledge in the field of programming. I build projects based on MERN & MEAN stack and node.js projects. I am a capable fast learner and diligent with my work to become the best at what I love doing.</p>
+                    <p>Email: <span class="aboutme-email">aung.hoa@gmail.com</span></p>
+                    <p>Location: <span class="aboutme-location"> Bangkok, Thailand</span></p>
+                    <a href="https://drive.google.com/file/d/1wwnAjQrtcQg6sgOXAdlojHMKm1kDSsrH/view" target="_blank" class="btn btn-primary mt-4 aboutme-resume-btn">Resume</a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-12"><i class="fa-solid fa-laptop-code"></i> Skills</h2>
+            <div class="row">
+                <!-- Skill Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-html5"></i> HTML</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-css3-alt"></i>CSS</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-js"></i>JavaScript</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-react"></i>React</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-angular"></i>Angular</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-ts"></i>TypeScript</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 7 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-node"></i>Node.js</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card 8 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card skill-card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-brands fa-python"></i>Python</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- experiences Section -->
+    <section id="experiences" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-12"><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
+            <div class="timeline">
+
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Freelance Developer</h3>
+                        <p></p>
+                        <p>Dec 2023 - Jun 2024</p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">Node.js, Digital asset management, Solana Cli, administrating cryptocurrency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Freelance Frontend Developer</h3>
+                        <p>Nov 2023 - Mar 2024</p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Junior Developer for POS system</h5>
+                                <p class="card-text">- Building a dynamic responsive software<br>- Implementing UI/UX design using Next.js, Tailwind, React.js and Angular.js<br>- Continuous Integration and Continuous Delivery (CI/CD)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>QA Engineer</h3>
+                        <p>Calcomp Electronic Public Co.Limited (Petchaburi, Thailand)</p>
+                        <p>Jun 2022 - Oct 2023</p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">OQC Engineer</h5>
+                                <p class="card-text"> -QA/QC engineer for manufacturing of Apple Watch SE series <br> -Solving and explaining customer's compliances <br> -Testing UI/UX experiences of Apple watch SE series <br> -Contacting vendors and related departments (QPM, SQE, PQE, IPQC, MFG, TE, ME) if in case of quality issues</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Data Statistician & live reporter</h3>
+                        <p>Nov 2023 - Mar 2024</p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Reporter Thai League 1, 2 and 3</h5>
+                                <p class="card-text">- Collecting data and information about situations on the football pitch <br> - Helping and cooperating with co-workers to follow up correct procedures <br> - Coordinating with referees and match organizers for the reports</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Site Engineer</h3>
+                        <p>Jun 2020 - Dec 2020</p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Intern as a site engineer in bridge maintenance at Nonthaburi Bridge (Thailand)</h5>
+                                <p class="card-text">- Changing bearings from truss bridge <br> - Reinstalling steel plates to the rusted plates <br> - Scaffolding in and around the bridge <br>- Changing rebars and filling up asphalt to potholes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Part-time News Reporter</h3>
+                        <p>Oct 2016 - Dec 2016</p>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Weekend reporter in entertainment sector for Myanmar Times</h5>
+                                <p class="card-text">- Interviewing and surveying people based on the topic that will be published in the news<br> - Writing and proofreading<br> - Keep records and notes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more timeline items as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4"><i class="fa-solid fa-envelope"></i> Contact <span>Me</span></h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="contactForm" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" name="submit" value="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        <div id="success-submit" class="alert alert-success my-5" style="display: none;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Include your other sections like About Me, Skills, Education, Experiences, and Contact here -->
+
+    <!-- Footer Section -->
+    <footer class="d-flex justify-content-center align-items-center bg-light text-center my-3 py-3">
+        <div>
+            <p>Thank you for visiting our site!</p>
+            <p class="socials-hero">
+                Contact Info:
+                <a href="https://www.linkedin.com/in/htut-oo-aung-5936b0223/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/LegacyAung" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://t.me/aunghoa" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://line.me/ti/p/yaEAFcPLXB" target="_blank"><i class="fa-brands fa-line"></i></a>
+            </p>
+            <p>&copy; 2024 Legacy Aung. Thank you for visiting my personal portfolio website.</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
